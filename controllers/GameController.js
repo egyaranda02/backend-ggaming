@@ -14,7 +14,6 @@ module.exports.getGames = async(req, res)=>{
                 });
             }
 
-            books = books.bindings.map((book) => BookFormatter(book));
             games = games.bindings.map((game)=>Format(game));
 
             if(req.params.id){

@@ -6,7 +6,6 @@ module.exports = fn = data => {
         "genre": data.genre ? data.genre.value : '',
         "publisher": data.publisher ? data.publisher.value : '',
         "developer": data.developer ? data.developer.value : '',
-        "penerjemah": data.penerjemah ? data.penerjemah.value : '',
         "urlFoto": data.urlFoto ? data.urlFoto.value : ''
     }
 }
