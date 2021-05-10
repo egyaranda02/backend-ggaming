@@ -31,7 +31,7 @@ exports.getGames = async(param)=>{
     }`
     };
     try{
-        const {data} = await axios(`${DATA_URL}/ds/query`,{
+        const {data} = await axios(`${DATA_URL}/ggaming/query`,{
             method: 'POST',
             headers,
             data: qs.stringify(queryData)
