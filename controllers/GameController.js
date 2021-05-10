@@ -1,4 +1,4 @@
-const connection = require('../repo/GameConnection');
+const connection = require('../connection/GameConnection');
 const Format = require('../tools/format');
 
 module.exports.getGames = async(req, res)=>{
