@@ -22,7 +22,7 @@ module.exports.getGames = async(req, res)=>{
                 });
                 res.status(200).json({
                     data:game[0],
-                    message: game.length ? 'Data buku berhasil didapatkan' : 'Tidak ada hasil dari pencarian'
+                    message: game.length ? 'Data game berhasil didapatkan' : 'Tidak ada hasil dari pencarian'
                 })
             }else{
                 res.status(200).json({
