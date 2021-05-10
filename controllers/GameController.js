@@ -1,11 +1,11 @@
-const GameRepo = require('../repo/GameRepo');
+const connection = require('../repo/GameConnection');
 const Format = require('../tools/format');
 
 module.exports.getGames = async(req, res)=>{
         try{
             console.log("function starting")
             // Query data dari repo
-            let games = await GameRepo.getGames(req.query);
+            let games = await connection.getGames(req.query);
 
             if(!games.bindings.length){
                 return res.status(200).json({
