@@ -2,7 +2,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 data:1 rdf:type data:game;
-    data:id "113101";
+    data:id "133302";
     data:title "Dota 2";
     data:platform "PC";
     data:genre "MOBA";
@@ -12,7 +12,7 @@ data:1 rdf:type data:game;
     .
 
 data:2 rdf:type data:game;
-    data:id "113102";
+    data:id "133303";
     data:title "League of Legend";
     data:platform "PC";
     data:genre "MOBA";
@@ -22,7 +22,7 @@ data:2 rdf:type data:game;
     .
 
 data:3 rdf:type data:game;
-    data:id "113201";
+    data:id "133310";
     data:title "Counter-Strike: Global Offensive";
     data:platform "PC";
     data:genre "FPS";
@@ -32,7 +32,7 @@ data:3 rdf:type data:game;
     .
 
 data:4 rdf:type data:game;
-    data:id "113202";
+    data:id "133311";
     data:title "Rainbow Six Siege";
     data:platform "PC";
     data:genre "FPS";
@@ -42,7 +42,7 @@ data:4 rdf:type data:game;
     .
 
 data:5 rdf:type data:game;
-    data:id "123101";
+    data:id "133312";
     data:title "Mobile Legends";
     data:platform "HP";
     data:genre "MOBA";
@@ -58,5 +58,345 @@ data:6 rdf:type data:game;
     data:genre "Adventure";
     data:publisher "Nintendo";
     data:developer "Nintendo";
+    data:urlFoto "";
+    .
+
+data:7 rdf:type data:game;
+    data:id "133304";
+    data:title "Risk of Rain";
+    data:platform "PC";
+    data:genre "Platform";
+    data:publisher "Chucklefish";
+    data:developer "Hopoo Games";
+    data:urlFoto "";
+    .
+
+data:8 rdf:type data:game;
+    data:id "133305";
+    data:title "Payday 2";
+    data:platform "PC";
+    data:genre "FPS";
+    data:publisher "505 Games";
+    data:developer "Overkill Software";
+    data:urlFoto "";
+    .
+
+data:9 rdf:type data:game;
+    data:id "133306";
+    data:title "Killing Floor";
+    data:platform "PC";
+    data:genre "FPS";
+    data:publisher "Tripwire Interactive";
+    data:developer "Tripwire Interactive";
+    data:urlFoto "";
+    .
+
+data:10 rdf:type data:game;
+    data:id "133307";
+    data:title "Killing Floor 2";
+    data:platform "PC";
+    data:genre "FPS";
+    data:publisher "Tripwire Interactive";
+    data:developer "Tripwire Interactive";
+    data:urlFoto "";
+    .
+
+data:11 rdf:type data:game;
+    data:id "113108";
+    data:title "God of War";
+    data:platform "Console";
+    data:genre "Adventure";
+    data:publisher "Sony Interactive Entertainment";
+    data:developer "Santa Monica Studio";
+    data:urlFoto "";
+    .
+
+data:12 rdf:type data:game;
+    data:id "113109";
+    data:title "Last of Us";
+    data:platform "Console";
+    data:genre "Horror";
+    data:publisher "Sony Computer Entertainment";
+    data:developer "Naughty Dog";
+    data:urlFoto "";
+    .
+
+data:13 rdf:type data:game;
+    data:id "113113";
+    data:title "The Last of Us Part II";
+    data:platform "Console";
+    data:genre "Horror";
+    data:publisher "Sony Computer Entertainment";
+    data:developer "Naughty Dog";
+    data:urlFoto "";
+    .
+
+data:14 rdf:type data:game;
+    data:id "113114";
+    data:title "Spider-Man";
+    data:platform "Console";
+    data:genre "Adventure";
+    data:publisher "Sony Interactive Entertainment";
+    data:developer "Insomniac Games";
+    data:urlFoto "";
+    .
+
+data:15 rdf:type data:game;
+    data:id "113115";
+    data:title "Red Dead Redemption";
+    data:platform "Console";
+    data:genre "Adventure";
+    data:publisher "Rockstar Games";
+    data:developer "Rockstar San Diego";
+    data:urlFoto "";
+    .
+
+data:16 rdf:type data:game;
+    data:id "113116";
+    data:title "Uncharted: Drake's Fortune";
+    data:platform "Console";
+    data:genre "Adventure";
+    data:publisher "Sony Interactive Entertainment";
+    data:developer "Naughty Dog";
+    data:urlFoto "";
+    .
+
+data:17 rdf:type data:game;
+    data:id "113117";
+    data:title "Uncharted 2: Among Thieves";
+    data:platform "Console";
+    data:genre "Adventure";
+    data:publisher "Sony Computer Entertainment";
+    data:developer "Naughty Dog";
+    data:urlFoto "";
+    .
+
+data:18 rdf:type data:game;
+    data:id "113118";
+    data:title "Uncharted 3: Drake's Deception";
+    data:platform "Console";
+    data:genre "Adventure";
+    data:publisher "Sony Computer Entertainment";
+    data:developer "Naughty Dog";
+    data:urlFoto "";
+    .
+
+data:19 rdf:type data:game;
+    data:id "113119";
+    data:title "Uncharted 4: A Thief's End";
+    data:platform "Console";
+    data:genre "Adventure";
+    data:publisher "Sony Computer Entertainment";
+    data:developer "Naughty Dog";
+    data:urlFoto "";
+    .
+
+data:20 rdf:type data:game;
+    data:id "113120";
+    data:title "Persona 4";
+    data:platform "Console";
+    data:genre "Role Playing";
+    data:publisher "Atlus";
+    data:developer "Atlus";
+    data:urlFoto "";
+    .
+
+data:21 rdf:type data:game;
+    data:id "113121";
+    data:title "Persona 5";
+    data:platform "Console";
+    data:genre "Role Playing";
+    data:publisher "Atlus";
+    data:developer "Atlus";
+    data:urlFoto "";
+    .
+
+data:22 rdf:type data:game;
+    data:id "113122";
+    data:title "Persona 5 Strikers";
+    data:platform "Console";
+    data:genre "Action RPG";
+    data:publisher "Atlus";
+    data:developer "Omega Force";
+    data:urlFoto "";
+    .
+
+data:23 rdf:type data:game;
+    data:id "113123";
+    data:title "Dragon Quest XI: Echoes of an Elusive Age";
+    data:platform "Console";
+    data:genre "Role Playing";
+    data:publisher "Square Enix";
+    data:developer "Square Enix";
+    data:urlFoto "";
+    .
+
+data:24 rdf:type data:game;
+    data:id "113124";
+    data:title "PlayerUnknown's Battlegrounds: Mobile";
+    data:platform "HP";
+    data:genre "Battle royale";
+    data:publisher "Tencent Games";
+    data:developer "Tencent Games";
+    data:urlFoto "";
+    .
+
+data:25 rdf:type data:game;
+    data:id "113125";
+    data:title "Arknights";
+    data:platform "HP";
+    data:genre "Tower Defence";
+    data:publisher "Yostar";
+    data:developer "Hypergryph/Studio Montagne";
+    data:urlFoto "";
+    .
+
+data:26 rdf:type data:game;
+    data:id "113126";
+    data:title "Clash of Clans";
+    data:platform "HP";
+    data:genre "Strategy";
+    data:publisher "Supercell";
+    data:developer "Supercell";
+    data:urlFoto "";
+    .
+
+data:27 rdf:type data:game;
+    data:id "113127";
+    data:title "Dragalia Lost";
+    data:platform "HP";
+    data:genre "Action role-playing";
+    data:publisher "Nintendo";
+    data:developer "Cygames";
+    data:urlFoto "";
+    .
+
+data:28 rdf:type data:game;
+    data:id "113128";
+    data:title "Honkai Impact 3rd";
+    data:platform "HP";
+    data:genre "Hack and Slash";
+    data:publisher "miHoYo";
+    data:developer "miHoYo";
+    data:urlFoto "";
+    .
+
+data:29 rdf:type data:game;
+    data:id "113129";
+    data:title "Azur Lane";
+    data:platform "HP";
+    data:genre "RPG";
+    data:publisher "Yostar";
+    data:developer "Shanghai Manjuu";
+    data:urlFoto "";
+    .
+
+data:30 rdf:type data:game;
+    data:id "113130";
+    data:title "Garena Free Fire";
+    data:platform "HP";
+    data:genre "Battle royale";
+    data:publisher "Garena";
+    data:developer "111 Dots Studio";
+    data:urlFoto "";
+    .
+
+data:31 rdf:type data:game;
+    data:id "113131";
+    data:title "Apex Legends";
+    data:platform "PC";
+    data:genre "Battle royale";
+    data:publisher "Electronic Arts";
+    data:developer "Respawn Entertainment";
+    data:urlFoto "";
+    .
+
+data:32 rdf:type data:game;
+    data:id "113132";
+    data:title "Outlast";
+    data:platform "PC";
+    data:genre "Horror";
+    data:publisher "Red Barrels";
+    data:developer "Red Barrels";
+    data:urlFoto "";
+    .
+
+data:33 rdf:type data:game;
+    data:id "113133";
+    data:title "Outlast 2";
+    data:platform "PC";
+    data:genre "Horror";
+    data:publisher "Red Barrels";
+    data:developer "Red Barrels";
+    data:urlFoto "";
+    .
+
+data:34 rdf:type data:game;
+    data:id "113134";
+    data:title "Tomb Raider(2013)";
+    data:platform "PC";
+    data:genre "Action-adventure";
+    data:publisher "Square Enix";
+    data:developer "Crystal Dynamics";
+    data:urlFoto "";
+    .
+
+data:35 rdf:type data:game;
+    data:id "113135";
+    data:title "Rise of the Tomb Raider";
+    data:platform "PC";
+    data:genre "Action-adventure";
+    data:publisher "Square Enix";
+    data:developer "Crystal Dynamics";
+    data:urlFoto "";
+    .
+
+data:36 rdf:type data:game;
+    data:id "113136";
+    data:title "Shadow of the Tomb Raider";
+    data:platform "PC";
+    data:genre "Action-adventure";
+    data:publisher "Square Enix";
+    data:developer "Eidos-Montréal";
+    data:urlFoto "";
+    .
+
+data:377 rdf:type data:game;
+    data:id "113137";
+    data:title "Infamous";
+    data:platform "Console";
+    data:genre "Action-adventure";
+    data:publisher "Sony Computer Entertainment";
+    data:developer "Sucker Punch Productions";
+    data:urlFoto "";
+    .
+
+data:38 rdf:type data:game;
+    data:id "113138";
+    data:title "Infamous 2";
+    data:platform "Console";
+    data:genre "Action-adventure";
+    data:publisher "Sony Computer Entertainment";
+    data:developer "Sucker Punch Productions";
+    data:urlFoto "";
+    .
+
+data:39 rdf:type data:game;
+    data:id "113139";
+    data:title "Infamous Second Son";
+    data:platform "Console";
+    data:genre "Action-adventure";
+    data:publisher "Sony Computer Entertainment";
+    data:developer "Sucker Punch Productions";
+    data:urlFoto "";
+    .
+
+data:40 rdf:type data:game;
+    data:id "113140";
+    data:title "Yakuza 0";
+    data:platform "Console";
+    data:genre "Action-adventure";
+    data:publisher "Sega";
+    data:developer "Ryu Ga Gotoku Studio";
     data:urlFoto "";
     .
