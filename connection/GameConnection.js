@@ -25,13 +25,12 @@ exports.getGames = async(param)=>{
         OPTIONAL {?sub data:urlFoto ?urlFoto.}
         FILTER regex(?title, "${param.title ? param.title : ''}", "i")
         FILTER regex(?id, "${param.id ? param.id : ''}", "i")
+        FILTER regex(?genre, "${param.genre ? param.genre : ''}", "i")
         FILTER regex(?platform, "${param.platform ? param.platform : ''}", "i")
-        FILTER regex(?developer, "${param.developer ? param.developer : ''}", "i")
-        FILTER regex(?publisher, "${param.publisher ? param.publisher : ''}", "i")
     }`
     };
     try{
-        const {data} = await axios(`${DATA_URL}/ggaming/query`,{
+        const {data} = await axios(`${DATA_URL}/ggeming/query`,{
             method: 'POST',
             headers,
             data: qs.stringify(queryData)
