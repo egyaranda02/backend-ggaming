@@ -8,7 +8,7 @@ const headers = {
     'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
 }
 
-exports.getGames = async(param)=>{
+module.exports.getGames = async(param)=>{
     // Query
     const queryData = {
     query: `PREFIX data:<http://example.com/>
@@ -24,7 +24,6 @@ exports.getGames = async(param)=>{
         OPTIONAL {?sub data:developer ?developer.}
         OPTIONAL {?sub data:urlFoto ?urlFoto.}
         FILTER regex(?title, "${param.title ? param.title : ''}", "i")
-        FILTER regex(?id, "${param.id ? param.id : ''}", "i")
         FILTER regex(?genre, "${param.genre ? param.genre : ''}", "i")
         FILTER regex(?platform, "${param.platform ? param.platform : ''}", "i")
     }`
@@ -42,4 +41,4 @@ exports.getGames = async(param)=>{
     }
 };
 
-module.exports = exports;
+

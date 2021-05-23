@@ -8,7 +8,7 @@ data:1 rdf:type data:game;
     data:genre "MOBA";
     data:publisher "Valve Corporation";
     data:developer "Valve Corporation";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/Qpnr6Mp/1.jpg";
     .
 
 data:2 rdf:type data:game;
@@ -18,7 +18,7 @@ data:2 rdf:type data:game;
     data:genre "MOBA";
     data:publisher "Riot Games";
     data:developer "Riot Games";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/HPybsD5/2.jpg";
     .
 
 data:3 rdf:type data:game;
@@ -28,7 +28,7 @@ data:3 rdf:type data:game;
     data:genre "FPS";
     data:publisher "Valve Corporation";
     data:developer "Valve Corporation";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/bm3WyWg/3.jpg";
     .
 
 data:4 rdf:type data:game;
@@ -38,7 +38,7 @@ data:4 rdf:type data:game;
     data:genre "FPS";
     data:publisher "Ubisoft";
     data:developer "Ubisoft";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/ft8zxG5/4.jpg";
     .
 
 data:5 rdf:type data:game;
@@ -48,7 +48,7 @@ data:5 rdf:type data:game;
     data:genre "MOBA";
     data:publisher "Moonton";
     data:developer "Moonton";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/7zgqPs2/5.jpg";
     .
 
 data:6 rdf:type data:game;
@@ -58,7 +58,7 @@ data:6 rdf:type data:game;
     data:genre "Adventure";
     data:publisher "Nintendo";
     data:developer "Nintendo";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/rxGh8Vp/6.jpg";
     .
 
 data:7 rdf:type data:game;
@@ -68,7 +68,7 @@ data:7 rdf:type data:game;
     data:genre "Platform";
     data:publisher "Chucklefish";
     data:developer "Hopoo Games";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/Jmqt5Wh/7.jpg";
     .
 
 data:8 rdf:type data:game;
@@ -78,7 +78,7 @@ data:8 rdf:type data:game;
     data:genre "FPS";
     data:publisher "505 Games";
     data:developer "Overkill Software";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/bXxvfnC/8.jpg";
     .
 
 data:9 rdf:type data:game;
@@ -88,7 +88,7 @@ data:9 rdf:type data:game;
     data:genre "FPS";
     data:publisher "Tripwire Interactive";
     data:developer "Tripwire Interactive";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/h7c992x/9.jpg";
     .
 
 data:10 rdf:type data:game;
@@ -98,7 +98,7 @@ data:10 rdf:type data:game;
     data:genre "FPS";
     data:publisher "Tripwire Interactive";
     data:developer "Tripwire Interactive";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/gPjCFCG/10.jpg";
     .
 
 data:11 rdf:type data:game;
@@ -108,7 +108,7 @@ data:11 rdf:type data:game;
     data:genre "Adventure";
     data:publisher "Sony Interactive Entertainment";
     data:developer "Santa Monica Studio";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/hDT4SKJ/11.jpg";
     .
 
 data:12 rdf:type data:game;
@@ -118,7 +118,7 @@ data:12 rdf:type data:game;
     data:genre "Horror";
     data:publisher "Sony Computer Entertainment";
     data:developer "Naughty Dog";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/TRWkjsw/12.jpg";
     .
 
 data:13 rdf:type data:game;
@@ -128,7 +128,7 @@ data:13 rdf:type data:game;
     data:genre "Horror";
     data:publisher "Sony Computer Entertainment";
     data:developer "Naughty Dog";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/6mCnj2k/13.jpg";
     .
 
 data:14 rdf:type data:game;
@@ -138,7 +138,7 @@ data:14 rdf:type data:game;
     data:genre "Adventure";
     data:publisher "Sony Interactive Entertainment";
     data:developer "Insomniac Games";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/N95S1Gw/14.jpg";
     .
 
 data:15 rdf:type data:game;
@@ -148,7 +148,7 @@ data:15 rdf:type data:game;
     data:genre "Adventure";
     data:publisher "Rockstar Games";
     data:developer "Rockstar San Diego";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/hdrXkrM/15.jpg";
     .
 
 data:16 rdf:type data:game;
@@ -158,7 +158,7 @@ data:16 rdf:type data:game;
     data:genre "Adventure";
     data:publisher "Sony Interactive Entertainment";
     data:developer "Naughty Dog";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/w63wQtr/16.jpg";
     .
 
 data:17 rdf:type data:game;
@@ -168,7 +168,7 @@ data:17 rdf:type data:game;
     data:genre "Adventure";
     data:publisher "Sony Computer Entertainment";
     data:developer "Naughty Dog";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/1LYnhz7/17.jpg";
     .
 
 data:18 rdf:type data:game;
@@ -178,7 +178,7 @@ data:18 rdf:type data:game;
     data:genre "Adventure";
     data:publisher "Sony Computer Entertainment";
     data:developer "Naughty Dog";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/92MY7P4/18.jpg";
     .
 
 data:19 rdf:type data:game;
@@ -188,7 +188,7 @@ data:19 rdf:type data:game;
     data:genre "Adventure";
     data:publisher "Sony Computer Entertainment";
     data:developer "Naughty Dog";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/y5PJz6m/19.jpg";
     .
 
 data:20 rdf:type data:game;
@@ -198,7 +198,7 @@ data:20 rdf:type data:game;
     data:genre "Role Playing";
     data:publisher "Atlus";
     data:developer "Atlus";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/w0FGsNx/20.jpg";
     .
 
 data:21 rdf:type data:game;
@@ -208,7 +208,7 @@ data:21 rdf:type data:game;
     data:genre "Role Playing";
     data:publisher "Atlus";
     data:developer "Atlus";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/1byXVMj/21.jpg";
     .
 
 data:22 rdf:type data:game;
@@ -218,7 +218,7 @@ data:22 rdf:type data:game;
     data:genre "Action RPG";
     data:publisher "Atlus";
     data:developer "Omega Force";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/CBtmMWC/22.jpg";
     .
 
 data:23 rdf:type data:game;
@@ -228,7 +228,7 @@ data:23 rdf:type data:game;
     data:genre "Role Playing";
     data:publisher "Square Enix";
     data:developer "Square Enix";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/28Xmx8j/23.jpg";
     .
 
 data:24 rdf:type data:game;
@@ -238,7 +238,7 @@ data:24 rdf:type data:game;
     data:genre "Battle royale";
     data:publisher "Tencent Games";
     data:developer "Tencent Games";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/2dsjtt0/24.png";
     .
 
 data:25 rdf:type data:game;
@@ -248,7 +248,7 @@ data:25 rdf:type data:game;
     data:genre "Tower Defence";
     data:publisher "Yostar";
     data:developer "Hypergryph/Studio Montagne";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/cLrw72W/25.jpg";
     .
 
 data:26 rdf:type data:game;
@@ -258,7 +258,7 @@ data:26 rdf:type data:game;
     data:genre "Strategy";
     data:publisher "Supercell";
     data:developer "Supercell";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/PTHwGBH/26.jpg";
     .
 
 data:27 rdf:type data:game;
@@ -268,7 +268,7 @@ data:27 rdf:type data:game;
     data:genre "Action role-playing";
     data:publisher "Nintendo";
     data:developer "Cygames";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/3CvCKsn/27.png";
     .
 
 data:28 rdf:type data:game;
@@ -278,7 +278,7 @@ data:28 rdf:type data:game;
     data:genre "Hack and Slash";
     data:publisher "miHoYo";
     data:developer "miHoYo";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/3zPdgb6/28.jpg";
     .
 
 data:29 rdf:type data:game;
@@ -288,7 +288,7 @@ data:29 rdf:type data:game;
     data:genre "RPG";
     data:publisher "Yostar";
     data:developer "Shanghai Manjuu";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/mJ8DvTt/29.jpg";
     .
 
 data:30 rdf:type data:game;
@@ -298,7 +298,7 @@ data:30 rdf:type data:game;
     data:genre "Battle royale";
     data:publisher "Garena";
     data:developer "111 Dots Studio";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/L0JCMGY/30.jpg";
     .
 
 data:31 rdf:type data:game;
@@ -308,7 +308,7 @@ data:31 rdf:type data:game;
     data:genre "Battle royale";
     data:publisher "Electronic Arts";
     data:developer "Respawn Entertainment";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/YXW968B/31.jpg";
     .
 
 data:32 rdf:type data:game;
@@ -318,7 +318,7 @@ data:32 rdf:type data:game;
     data:genre "Horror";
     data:publisher "Red Barrels";
     data:developer "Red Barrels";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/FDyLKh1/32.webp";
     .
 
 data:33 rdf:type data:game;
@@ -328,7 +328,7 @@ data:33 rdf:type data:game;
     data:genre "Horror";
     data:publisher "Red Barrels";
     data:developer "Red Barrels";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/BwmkNnt/33.webp";
     .
 
 data:34 rdf:type data:game;
@@ -338,7 +338,7 @@ data:34 rdf:type data:game;
     data:genre "Action-adventure";
     data:publisher "Square Enix";
     data:developer "Crystal Dynamics";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/MnRrQ8T/34.jpg";
     .
 
 data:35 rdf:type data:game;
@@ -348,7 +348,7 @@ data:35 rdf:type data:game;
     data:genre "Action-adventure";
     data:publisher "Square Enix";
     data:developer "Crystal Dynamics";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/nrSbnXw/35.jpg";
     .
 
 data:36 rdf:type data:game;
@@ -358,17 +358,17 @@ data:36 rdf:type data:game;
     data:genre "Action-adventure";
     data:publisher "Square Enix";
     data:developer "Eidos-Montréal";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/HTdFYSj/36.jpg";
     .
 
-data:377 rdf:type data:game;
+data:37 rdf:type data:game;
     data:id "113137";
     data:title "Infamous";
     data:platform "Console";
     data:genre "Action-adventure";
     data:publisher "Sony Computer Entertainment";
     data:developer "Sucker Punch Productions";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/ft9qZwS/37.png";
     .
 
 data:38 rdf:type data:game;
@@ -378,7 +378,7 @@ data:38 rdf:type data:game;
     data:genre "Action-adventure";
     data:publisher "Sony Computer Entertainment";
     data:developer "Sucker Punch Productions";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/hynkwKs/38.jpg";
     .
 
 data:39 rdf:type data:game;
@@ -388,7 +388,7 @@ data:39 rdf:type data:game;
     data:genre "Action-adventure";
     data:publisher "Sony Computer Entertainment";
     data:developer "Sucker Punch Productions";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/B3GfVf7/39.jpg";
     .
 
 data:40 rdf:type data:game;
@@ -398,5 +398,5 @@ data:40 rdf:type data:game;
     data:genre "Action-adventure";
     data:publisher "Sega";
     data:developer "Ryu Ga Gotoku Studio";
-    data:urlFoto "";
+    data:urlFoto "https://i.ibb.co/2npPD2Q/40.jpg";
     .
