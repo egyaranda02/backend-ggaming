@@ -1,402 +1,425 @@
 @prefix data: <http://example.com/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-data:1 rdf:type data:game;
+data:01 rdf:type data:game;
     data:id "133302";
     data:title "Dota 2";
     data:platform "PC";
-    data:genre "MOBA";
     data:publisher "Valve Corporation";
     data:developer "Valve Corporation";
     data:urlFoto "https://i.ibb.co/Qpnr6Mp/1.jpg";
     .
 
-data:2 rdf:type data:game;
+data:02 rdf:type data:game;
     data:id "133303";
     data:title "League of Legend";
     data:platform "PC";
-    data:genre "MOBA";
     data:publisher "Riot Games";
     data:developer "Riot Games";
     data:urlFoto "https://i.ibb.co/HPybsD5/2.jpg";
     .
 
-data:3 rdf:type data:game;
+data:03 rdf:type data:game;
     data:id "133310";
     data:title "Counter-Strike: Global Offensive";
     data:platform "PC";
-    data:genre "FPS";
     data:publisher "Valve Corporation";
     data:developer "Valve Corporation";
     data:urlFoto "https://i.ibb.co/bm3WyWg/3.jpg";
     .
 
-data:4 rdf:type data:game;
+data:04 rdf:type data:game;
     data:id "133311";
     data:title "Rainbow Six Siege";
     data:platform "PC";
-    data:genre "FPS";
     data:publisher "Ubisoft";
     data:developer "Ubisoft";
     data:urlFoto "https://i.ibb.co/ft8zxG5/4.jpg";
     .
 
-data:5 rdf:type data:game;
+data:05 rdf:type data:game;
     data:id "133312";
     data:title "Mobile Legends";
     data:platform "HP";
-    data:genre "MOBA";
     data:publisher "Moonton";
     data:developer "Moonton";
     data:urlFoto "https://i.ibb.co/7zgqPs2/5.jpg";
     .
 
-data:6 rdf:type data:game;
+data:06 rdf:type data:game;
     data:id "133301";
     data:title "The Legend of Zelda: Breath of the Wild";
     data:platform "Console";
-    data:genre "Adventure";
     data:publisher "Nintendo";
     data:developer "Nintendo";
     data:urlFoto "https://i.ibb.co/rxGh8Vp/6.jpg";
     .
 
-data:7 rdf:type data:game;
+data:07 rdf:type data:game;
     data:id "133304";
     data:title "Risk of Rain";
     data:platform "PC";
-    data:genre "Platform";
     data:publisher "Chucklefish";
     data:developer "Hopoo Games";
     data:urlFoto "https://i.ibb.co/Jmqt5Wh/7.jpg";
     .
 
-data:8 rdf:type data:game;
+data:08 rdf:type data:game;
     data:id "133305";
     data:title "Payday 2";
     data:platform "PC";
-    data:genre "FPS";
     data:publisher "505 Games";
     data:developer "Overkill Software";
     data:urlFoto "https://i.ibb.co/bXxvfnC/8.jpg";
     .
 
-data:9 rdf:type data:game;
+data:09 rdf:type data:game;
     data:id "133306";
     data:title "Killing Floor";
     data:platform "PC";
-    data:genre "FPS";
     data:publisher "Tripwire Interactive";
     data:developer "Tripwire Interactive";
     data:urlFoto "https://i.ibb.co/h7c992x/9.jpg";
     .
 
-data:10 rdf:type data:game;
+data:010 rdf:type data:game;
     data:id "133307";
     data:title "Killing Floor 2";
     data:platform "PC";
-    data:genre "FPS";
     data:publisher "Tripwire Interactive";
     data:developer "Tripwire Interactive";
     data:urlFoto "https://i.ibb.co/gPjCFCG/10.jpg";
     .
 
-data:11 rdf:type data:game;
+data:011 rdf:type data:game;
     data:id "113108";
     data:title "God of War";
     data:platform "Console";
-    data:genre "Adventure";
     data:publisher "Sony Interactive Entertainment";
     data:developer "Santa Monica Studio";
     data:urlFoto "https://i.ibb.co/hDT4SKJ/11.jpg";
     .
 
-data:12 rdf:type data:game;
+data:012 rdf:type data:game;
     data:id "113109";
     data:title "Last of Us";
     data:platform "Console";
-    data:genre "Horror";
     data:publisher "Sony Computer Entertainment";
     data:developer "Naughty Dog";
     data:urlFoto "https://i.ibb.co/TRWkjsw/12.jpg";
     .
 
-data:13 rdf:type data:game;
+data:013 rdf:type data:game;
     data:id "113113";
     data:title "The Last of Us Part II";
     data:platform "Console";
-    data:genre "Horror";
     data:publisher "Sony Computer Entertainment";
     data:developer "Naughty Dog";
     data:urlFoto "https://i.ibb.co/6mCnj2k/13.jpg";
     .
 
-data:14 rdf:type data:game;
+data:014 rdf:type data:game;
     data:id "113114";
     data:title "Spider-Man";
     data:platform "Console";
-    data:genre "Adventure";
     data:publisher "Sony Interactive Entertainment";
     data:developer "Insomniac Games";
     data:urlFoto "https://i.ibb.co/N95S1Gw/14.jpg";
     .
 
-data:15 rdf:type data:game;
+data:015 rdf:type data:game;
     data:id "113115";
     data:title "Red Dead Redemption";
     data:platform "Console";
-    data:genre "Adventure";
     data:publisher "Rockstar Games";
     data:developer "Rockstar San Diego";
     data:urlFoto "https://i.ibb.co/hdrXkrM/15.jpg";
     .
 
-data:16 rdf:type data:game;
+data:016 rdf:type data:game;
     data:id "113116";
     data:title "Uncharted: Drake's Fortune";
     data:platform "Console";
-    data:genre "Adventure";
     data:publisher "Sony Interactive Entertainment";
     data:developer "Naughty Dog";
     data:urlFoto "https://i.ibb.co/w63wQtr/16.jpg";
     .
 
-data:17 rdf:type data:game;
+data:017 rdf:type data:game;
     data:id "113117";
     data:title "Uncharted 2: Among Thieves";
     data:platform "Console";
-    data:genre "Adventure";
     data:publisher "Sony Computer Entertainment";
     data:developer "Naughty Dog";
     data:urlFoto "https://i.ibb.co/1LYnhz7/17.jpg";
     .
 
-data:18 rdf:type data:game;
+data:018 rdf:type data:game;
     data:id "113118";
     data:title "Uncharted 3: Drake's Deception";
     data:platform "Console";
-    data:genre "Adventure";
     data:publisher "Sony Computer Entertainment";
     data:developer "Naughty Dog";
     data:urlFoto "https://i.ibb.co/92MY7P4/18.jpg";
     .
 
-data:19 rdf:type data:game;
+data:019 rdf:type data:game;
     data:id "113119";
     data:title "Uncharted 4: A Thief's End";
-    data:platform "Console";
-    data:genre "Adventure";
     data:publisher "Sony Computer Entertainment";
     data:developer "Naughty Dog";
     data:urlFoto "https://i.ibb.co/y5PJz6m/19.jpg";
     .
 
-data:20 rdf:type data:game;
+data:020 rdf:type data:game;
     data:id "113120";
     data:title "Persona 4";
     data:platform "Console";
-    data:genre "Role Playing";
     data:publisher "Atlus";
     data:developer "Atlus";
     data:urlFoto "https://i.ibb.co/w0FGsNx/20.jpg";
     .
 
-data:21 rdf:type data:game;
+data:021 rdf:type data:game;
     data:id "113121";
     data:title "Persona 5";
     data:platform "Console";
-    data:genre "Role Playing";
     data:publisher "Atlus";
     data:developer "Atlus";
     data:urlFoto "https://i.ibb.co/1byXVMj/21.jpg";
     .
 
-data:22 rdf:type data:game;
+data:022 rdf:type data:game;
     data:id "113122";
     data:title "Persona 5 Strikers";
     data:platform "Console";
-    data:genre "Action RPG";
     data:publisher "Atlus";
     data:developer "Omega Force";
     data:urlFoto "https://i.ibb.co/CBtmMWC/22.jpg";
     .
 
-data:23 rdf:type data:game;
+data:023 rdf:type data:game;
     data:id "113123";
     data:title "Dragon Quest XI: Echoes of an Elusive Age";
     data:platform "Console";
-    data:genre "Role Playing";
     data:publisher "Square Enix";
     data:developer "Square Enix";
     data:urlFoto "https://i.ibb.co/28Xmx8j/23.jpg";
     .
 
-data:24 rdf:type data:game;
+data:024 rdf:type data:game;
     data:id "113124";
     data:title "PlayerUnknown's Battlegrounds: Mobile";
     data:platform "HP";
-    data:genre "Battle royale";
     data:publisher "Tencent Games";
     data:developer "Tencent Games";
     data:urlFoto "https://i.ibb.co/2dsjtt0/24.png";
     .
 
-data:25 rdf:type data:game;
+data:025 rdf:type data:game;
     data:id "113125";
     data:title "Arknights";
     data:platform "HP";
-    data:genre "Tower Defence";
     data:publisher "Yostar";
     data:developer "Hypergryph/Studio Montagne";
     data:urlFoto "https://i.ibb.co/cLrw72W/25.jpg";
     .
 
-data:26 rdf:type data:game;
+data:026 rdf:type data:game;
     data:id "113126";
     data:title "Clash of Clans";
     data:platform "HP";
-    data:genre "Strategy";
     data:publisher "Supercell";
     data:developer "Supercell";
     data:urlFoto "https://i.ibb.co/PTHwGBH/26.jpg";
     .
 
-data:27 rdf:type data:game;
+data:027 rdf:type data:game;
     data:id "113127";
     data:title "Dragalia Lost";
     data:platform "HP";
-    data:genre "Action role-playing";
     data:publisher "Nintendo";
     data:developer "Cygames";
     data:urlFoto "https://i.ibb.co/3CvCKsn/27.png";
     .
 
-data:28 rdf:type data:game;
+data:028 rdf:type data:game;
     data:id "113128";
     data:title "Honkai Impact 3rd";
     data:platform "HP";
-    data:genre "Hack and Slash";
     data:publisher "miHoYo";
     data:developer "miHoYo";
     data:urlFoto "https://i.ibb.co/3zPdgb6/28.jpg";
     .
 
-data:29 rdf:type data:game;
+data:029 rdf:type data:game;
     data:id "113129";
     data:title "Azur Lane";
     data:platform "HP";
-    data:genre "RPG";
     data:publisher "Yostar";
     data:developer "Shanghai Manjuu";
     data:urlFoto "https://i.ibb.co/mJ8DvTt/29.jpg";
     .
 
-data:30 rdf:type data:game;
+data:030 rdf:type data:game;
     data:id "113130";
     data:title "Garena Free Fire";
     data:platform "HP";
-    data:genre "Battle royale";
     data:publisher "Garena";
     data:developer "111 Dots Studio";
     data:urlFoto "https://i.ibb.co/L0JCMGY/30.jpg";
     .
 
-data:31 rdf:type data:game;
+data:031 rdf:type data:game;
     data:id "113131";
     data:title "Apex Legends";
     data:platform "PC";
-    data:genre "Battle royale";
     data:publisher "Electronic Arts";
     data:developer "Respawn Entertainment";
     data:urlFoto "https://i.ibb.co/YXW968B/31.jpg";
     .
 
-data:32 rdf:type data:game;
+data:032 rdf:type data:game;
     data:id "113132";
     data:title "Outlast";
     data:platform "PC";
-    data:genre "Horror";
     data:publisher "Red Barrels";
     data:developer "Red Barrels";
     data:urlFoto "https://i.ibb.co/FDyLKh1/32.webp";
     .
 
-data:33 rdf:type data:game;
+data:033 rdf:type data:game;
     data:id "113133";
     data:title "Outlast 2";
     data:platform "PC";
-    data:genre "Horror";
     data:publisher "Red Barrels";
     data:developer "Red Barrels";
     data:urlFoto "https://i.ibb.co/BwmkNnt/33.webp";
     .
 
-data:34 rdf:type data:game;
+data:034 rdf:type data:game;
     data:id "113134";
     data:title "Tomb Raider(2013)";
     data:platform "PC";
-    data:genre "Action-adventure";
     data:publisher "Square Enix";
     data:developer "Crystal Dynamics";
     data:urlFoto "https://i.ibb.co/MnRrQ8T/34.jpg";
     .
 
-data:35 rdf:type data:game;
+data:035 rdf:type data:game;
     data:id "113135";
     data:title "Rise of the Tomb Raider";
     data:platform "PC";
-    data:genre "Action-adventure";
     data:publisher "Square Enix";
     data:developer "Crystal Dynamics";
     data:urlFoto "https://i.ibb.co/nrSbnXw/35.jpg";
     .
 
-data:36 rdf:type data:game;
+data:036 rdf:type data:game;
     data:id "113136";
     data:title "Shadow of the Tomb Raider";
     data:platform "PC";
-    data:genre "Action-adventure";
     data:publisher "Square Enix";
     data:developer "Eidos-Montréal";
     data:urlFoto "https://i.ibb.co/HTdFYSj/36.jpg";
     .
 
-data:37 rdf:type data:game;
+data:037 rdf:type data:game;
     data:id "113137";
     data:title "Infamous";
     data:platform "Console";
-    data:genre "Action-adventure";
     data:publisher "Sony Computer Entertainment";
     data:developer "Sucker Punch Productions";
     data:urlFoto "https://i.ibb.co/ft9qZwS/37.png";
     .
 
-data:38 rdf:type data:game;
+data:038 rdf:type data:game;
     data:id "113138";
     data:title "Infamous 2";
     data:platform "Console";
-    data:genre "Action-adventure";
     data:publisher "Sony Computer Entertainment";
     data:developer "Sucker Punch Productions";
     data:urlFoto "https://i.ibb.co/hynkwKs/38.jpg";
     .
 
-data:39 rdf:type data:game;
+data:039 rdf:type data:game;
     data:id "113139";
     data:title "Infamous Second Son";
     data:platform "Console";
-    data:genre "Action-adventure";
     data:publisher "Sony Computer Entertainment";
     data:developer "Sucker Punch Productions";
     data:urlFoto "https://i.ibb.co/B3GfVf7/39.jpg";
     .
 
-data:40 rdf:type data:game;
+data:040 rdf:type data:game;
     data:id "113140";
     data:title "Yakuza 0";
     data:platform "Console";
-    data:genre "Action-adventure";
     data:publisher "Sega";
     data:developer "Ryu Ga Gotoku Studio";
     data:urlFoto "https://i.ibb.co/2npPD2Q/40.jpg";
     .
+
+data:genre1 rdf:type data:genre;
+data:genreName "Action" .
+data:genre2 rdf:type data:genre;
+data:genreName "Adventure" .
+data:genre3 rdf:type data:genre;
+data:genreName "Battle Royale" .
+data:genre4 rdf:type data:genre;
+data:genreName "Hack and Slash" .
+data:genre5 rdf:type data:genre;
+data:genreName "FPS" .
+data:genre6 rdf:type data:genre;
+data:genreName "RPG" .
+data:genre7 rdf:type data:genre;
+data:genreName "Strategy" .
+data:genre8 rdf:type data:genre;
+data:genreName "MOBA" .
+data:genre9 rdf:type data:genre;
+data:genreName "Horror" .
+data:genre10 rdf:type data:genre;
+data:genreName "Platform" .
+data:genre11 rdf:type data:genre;
+data:genreName "Tower Defence" .
+
+data:01 data:haveGenre data:genre8 .
+data:02 data:haveGenre data:genre8 .
+data:03 data:haveGenre data:genre5 .
+data:04 data:haveGenre data:genre5 .
+data:05 data:haveGenre data:genre8 .
+data:06 data:haveGenre data:genre2 .
+data:07 data:haveGenre data:genre10 .
+data:08 data:haveGenre data:genre5 .
+data:09 data:haveGenre data:genre5 .
+data:010 data:haveGenre data:genre5 .
+data:011 data:haveGenre data:genre2 .
+data:012 data:haveGenre data:genre9 .
+data:013 data:haveGenre data:genre9 .
+data:014 data:haveGenre data:genre2 .
+data:015 data:haveGenre data:genre2 .
+data:016 data:haveGenre data:genre2 .
+data:017 data:haveGenre data:genre2 .
+data:018 data:haveGenre data:genre2 .
+data:019 data:haveGenre data:genre2 .
+data:020 data:haveGenre data:genre6 .
+data:021 data:haveGenre data:genre6 .
+data:022 data:haveGenre data:genre6 .
+data:023 data:haveGenre data:genre6 .
+data:024 data:haveGenre data:genre3 .
+data:025 data:haveGenre data:genre11 .
+data:026 data:haveGenre data:genre7 .
+data:027 data:haveGenre data:genre6 .
+data:028 data:haveGenre data:genre4 .
+data:029 data:haveGenre data:genre6 .
+data:030 data:haveGenre data:genre3 .
+data:031 data:haveGenre data:genre3 .
+data:032 data:haveGenre data:genre9 .
+data:033 data:haveGenre data:genre9 .
+data:034 data:haveGenre data:genre2 .
+data:035 data:haveGenre data:genre2 .
+data:036 data:haveGenre data:genre2 .
+data:037 data:haveGenre data:genre2 .
+data:038 data:haveGenre data:genre2 .
+data:039 data:haveGenre data:genre2 .
+data:040 data:haveGenre data:genre2 .
