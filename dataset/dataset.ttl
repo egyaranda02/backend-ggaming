@@ -350,7 +350,7 @@ data:018 data:onPlatform data:platform2 .
 data:019 data:onPlatform data:platform2 .
 data:020 data:onPlatform data:platform2 .
 data:021 data:onPlatform data:platform2 .
-data:022 data:onPlatform data:platform2.
+data:022 data:onPlatform data:platform2 .
 data:023 data:onPlatform data:platform2 .
 data:024 data:onPlatform data:platform3 .
 data:025 data:onPlatform data:platform3 .

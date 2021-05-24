@@ -32,4 +32,27 @@ module.exports.getGames = async(req, res)=>{
         }catch(err){
             res.status(400).json(err);
         }
+}
+
+module.exports.getSuggestion = async(req, res)=>{
+    try{
+        // Query data dari connection
+        let games = await connection.getSuggestion(req.query);
+
+        if(!games.bindings.length){
+            return res.status(200).json({
+                data:[],
+                message: "Data tidak ditemukan"
+            });
+        }
+
+        games = games.bindings.map((game)=>Format(game));
+        res.status(200).json({
+            data: games,
+            message: "Show all games"
+        })
+
+    }catch(err){
+        res.status(400).json(err);
     }
+}
