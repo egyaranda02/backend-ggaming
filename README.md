@@ -2,7 +2,7 @@
 
 Projek ini dibangun dengan menggunakan NodeJS sebagai server dari aplikasi GGeming
 
-Untuk database juga akan ada pada repository ini pada folder `data` dan diperbarui secara berkala.
+Untuk dataset sudah kita sediakan pada folder dataset dengan nama file `dataset.ttl`
 
 ## Cara Penggunaan Backend
 
