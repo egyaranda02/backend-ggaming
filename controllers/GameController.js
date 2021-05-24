@@ -3,8 +3,7 @@ const Format = require('../tools/format');
 
 module.exports.getGames = async(req, res)=>{
         try{
-            console.log("function starting")
-            // Query data dari repo
+            // Query data dari connection
             let games = await connection.getGames(req.query);
 
             if(!games.bindings.length){

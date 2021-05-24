@@ -34,7 +34,6 @@ module.exports.getGames = async(param)=>{
             headers,
             data: qs.stringify(queryData)
         });
-        console.log(data.results);
         return data.results;
     }catch(err){
         res.status(400).json(err);
