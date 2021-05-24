@@ -29,7 +29,7 @@ Untuk database juga akan ada pada repository ini pada folder `data` dan diperbar
   npm install
   ```
   
-- Jalankan REST API Server dengan
+- Jalankan REST API Server dengan command berikut
   
   ```cmd
   node app
