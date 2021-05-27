@@ -1,8 +1,8 @@
+require('dotenv').config({ path: '../.env' })
 const axios = require('axios');
 const qs = require('qs');
 
-const DATA_URL = "http://localhost:3030";
-
+const DATA_URL = process.env.BASE_URL || "http://localhost:3030";
 const headers = {
     'Accept': 'application/sparql-results+json,*/*;q=0.9',
     'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
