@@ -28,6 +28,8 @@ module.exports.getGames = async(param)=>{
         FILTER regex(?genreName, "${param.genre ? param.genre : ''}", "i")
         FILTER regex(?title, "${param.title ? param.title : ''}", "i")
         FILTER regex(?platformName, "${param.platform ? param.platform : ''}", "i")
+        FILTER regex(?publisher, "${param.publisher ? param.publisher : ''}", "i")
+        FILTER regex(?developer, "${param.developer ? param.developer : ''}", "i")
     }`
     };
     try{
