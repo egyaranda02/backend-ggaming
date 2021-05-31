@@ -76,3 +76,61 @@ module.exports.getSuggestion = async(param)=>{
     }
 };
 
+module.exports.getSearch = async(param)=>{
+    // Query
+    const queryData = {
+    query: `PREFIX data:<http://example.com/>
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+    SELECT ?id ?title ?platformName ?genreName ?publisher ?developer ?urlFoto
+    WHERE{
+        {
+            ?sub rdf:type data:game
+            OPTIONAL {?sub data:id ?id.}
+            OPTIONAL {?sub data:title ?title.}
+            OPTIONAL {?sub data:publisher ?publisher.}
+            OPTIONAL {?sub data:developer ?developer.}
+            OPTIONAL {?sub data:urlFoto ?urlFoto.}
+            OPTIONAL {?sub data:onPlatform ?platformID.}
+            OPTIONAL {?platformID data:platformName ?platformName.}
+            OPTIONAL {?sub data:haveGenre ?genreID.}
+            OPTIONAL {?genreID data:genreName ?genreName.}
+            FILTER REGEX(?title, "${param.search ? param.search : ''}", "i")
+        } UNION {
+            ?sub rdf:type data:game
+            OPTIONAL {?sub data:id ?id.}
+            OPTIONAL {?sub data:title ?title.}
+            OPTIONAL {?sub data:publisher ?publisher.}
+            OPTIONAL {?sub data:developer ?developer.}
+            OPTIONAL {?sub data:urlFoto ?urlFoto.}
+            OPTIONAL {?sub data:onPlatform ?platformID.}
+            OPTIONAL {?platformID data:platformName ?platformName.}
+            OPTIONAL {?sub data:haveGenre ?genreID.}
+            OPTIONAL {?genreID data:genreName ?genreName.}
+            FILTER REGEX(?genreName, "${param.search ? param.search : ''}", "i")
+        } UNION {
+            ?sub rdf:type data:game
+            OPTIONAL {?sub data:id ?id.}
+            OPTIONAL {?sub data:title ?title.}
+            OPTIONAL {?sub data:publisher ?publisher.}
+            OPTIONAL {?sub data:developer ?developer.}
+            OPTIONAL {?sub data:urlFoto ?urlFoto.}
+            OPTIONAL {?sub data:onPlatform ?platformID.}
+            OPTIONAL {?platformID data:platformName ?platformName.}
+            OPTIONAL {?sub data:haveGenre ?genreID.}
+            OPTIONAL {?genreID data:genreName ?genreName.}
+            FILTER REGEX(?platformName, "${param.search ? param.search : ''}", "i")
+        } 
+    }`
+    };
+    try{
+        const {data} = await axios(`${DATA_URL}/ggeming/query`,{
+            method: 'POST',
+            headers,
+            data: qs.stringify(queryData)
+        });
+        console.log(data.results)
+        return data.results;
+    }catch(err){
+        res.status(400).json(err);
+    }
+};
