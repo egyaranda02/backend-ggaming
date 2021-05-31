@@ -70,7 +70,6 @@ module.exports.getSearch = async(req, res)=>{
 module.exports.getSuggestion = async(req, res)=>{
     try{
         // Query data dari connection
-
         let games = await connection.getSuggestion(req.query);
 
         if(!games.bindings.length){
